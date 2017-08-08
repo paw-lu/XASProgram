@@ -70,8 +70,8 @@ public class TxtPlotsSpinratioforFolders {
 
             Scanner scannerRead = new Scanner (new FileReader(filePath));  // Recall the file here to re-read it for array conversion.
 
-            for (int i = 0; i <129; i++) {  // Burn off text i don't care about. BullshitCounter.java told me I can skip the first 129 words.
-              scannerRead.next();
+            for (int i = 0; i < 16; i++) {  // Burn off text i don't care about. BullshitRowCounter.java told me I can skip the first 16 rows.
+              scannerRow.next();
             }
 
             for (int i = 0; i < rowNum; i++) {
