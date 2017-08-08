@@ -20,7 +20,7 @@ import java.io.IOException;
 import java.io.FileReader;
 import java.io.PrintWriter;
 
-public class TxtPlotsSpinratioforFolders {
+public class XASProgram {
   public static void main (String[] args) throws IOException {
 
     File folder = new File("C:/Users/Paulo/Desktop/Test/"); // Here is the input folder, where all your data is kept. Type in what folder your data is stored in.
@@ -70,8 +70,8 @@ public class TxtPlotsSpinratioforFolders {
 
             Scanner scannerRead = new Scanner (new FileReader(filePath));  // Recall the file here to re-read it for array conversion.
 
-            for (int i = 0; i <129; i++) {  // Burn off text i don't care about. BullshitCounter.java told me I can skip the first 129 words.
-              scannerRead.next();
+            for (int i = 0; i < 16; i++) {  // Burn off text i don't care about. BullshitRowCounter.java told me I can skip the first 16 rows.
+              scannerRead.nextLine();
             }
 
             for (int i = 0; i < rowNum; i++) {
