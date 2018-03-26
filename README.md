@@ -1,5 +1,5 @@
 # XASProgram
-Simple program to organize and plot out XAS data for analysis
+Program to parse through sigscan and trajscan files from the Advanced Light Source. Will output XAS data in seperate txt files and plot them as jpegs as well as calculate and outputthe high spin state occupation of a sample in a txt file.
 
 This is the converter to change SigScan files into arrays used for java use and then exports individual txt files with the formatted data, tiny jpeg files with plots of the data, and a final txt file showing peak ratios.
 This program assumes:
